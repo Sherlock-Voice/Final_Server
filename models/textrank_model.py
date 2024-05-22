@@ -23,8 +23,9 @@ def extract_filtered_words(keywords):
 
 def summarize_keywords(filename):
     sents = [sent.strip() for sent in filename.values() if sent.strip()]
+    print(sents)
     tokenizer = KomoranTokenizer()
-    keyword_summarizer = KeywordSummarizer(tokenize=tokenizer.tokenize, min_count=2, min_cooccurrence=1)
+    keyword_summarizer = KeywordSummarizer(tokenize=tokenizer.tokenize, min_count=2)    #min_cooccurrence=1
     keywords = keyword_summarizer.summarize(sents, topk=20)
     return extract_filtered_words(keywords)
 

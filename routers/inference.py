@@ -10,9 +10,10 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from models.deepfake_model import *
 from models.textrank_model import *
+from models.kobert.KoBERT_model import inf
 
 # Google STT API Key
-# os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/user1/SherlockVoice/sherlockvoice_server/app/routers/sv-server_key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C://Users//er112//VSCode//HUFS//capstone//Final_Server//New_Server//routers//sherlock-voice-422810-49432da7dad0.json"
 
 router = APIRouter()
 
@@ -53,12 +54,15 @@ async def transcribe_audio(content, sample_rate_hertz, sample_channels, filename
         for res in response.results:
             print("Transcript: {}".format(res.alternatives[0].transcript))
             transcriptions[filename] = res.alternatives[0].transcript
+
+            kobert_output = inf(res.alternatives[0].transcript)
+
             print("Keywords: {}".format(summarize_keywords(transcriptions)))
 
     else:
         print("Not able to transcribe the audio file")
 
-    return summarize_keywords(transcriptions)
+    return summarize_keywords(transcriptions), kobert_output
 
 @router.post("/upload/")
 async def create_upload_file(file: UploadFile = File(...)):
