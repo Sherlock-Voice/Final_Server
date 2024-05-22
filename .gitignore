@@ -1,7 +1,3 @@
-sv-server_key.json
-venv/
-__pycache__/
-/venv
-/__pycache__
-.DS_Store/
-Dockerfile
+version https://git-lfs.github.com/spec/v1
+oid sha256:21f736845ee2984dd822149b2a742dcbb39d0c69e58cdcf6ec7094e2d5b74287
+size 78

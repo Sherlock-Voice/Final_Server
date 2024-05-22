@@ -1,13 +1,3 @@
-{
-  "type": "service_account",
-  "project_id": "sherlock-voice-422810",
-  "private_key_id": "49432da7dad0699b88b8c6d95eaf745e52793840",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCcilHW5z51K/lT\nZVG1ZNwLvgBl4FEEdcNEjKP2w6iNPrkWB2UPPNI+cNmsCTu9TxM6CUdEb711uiKD\nzsI2NFAtbkK1u3oWK7s/DyUAN2PMaxAE7fc+WoPJS2IpPotPHjItZ5zKKRfWy0sA\nCSrDJPaZnaG+GwGUn9FoHLyZx6BCmiccvZ0AkUeJsn284i6ScvZA6iw0KVZClT3c\n+uJ7P3OXnKYxi/T74dFrNcJYxZldO7eNljXa20CItgVGEDUpPgw022zLj8jIIf3P\nITPvneandGh8IRnUYBUa++vFGHW5cgOQ91RmAZBZxXADckBlhUHAMa8buEPpgusD\n7OLd+kszAgMBAAECggEABgLhxajiTcmUgiP/5paq7zXVT2mKcutlcOUdtBorXNEt\ny69uWA7JMWX6qzqSNWDV/NfiXrm+bXOVDmQK3TNWaN2KaO7Rb2Hah5S4olt+KkQU\n52Y5T7GrdzgShZbwmTyFnMIVKUY5XiGMYxdMXGtiSjUywtlypBccXtfLqPQbhAiB\nTlg48sDr34LQ8S2oDnm7o2wW5GCF4E+WNpUHrhC9MNjYAmXPabl1V7ewmVlWRWs1\n6LUO+2ZZrbk8uHp8JroIF9VtlNK8vCJdcap2/mNKdPem7iRXorOi06K3ka2tDhRu\npdB+2WynwxzZDinyQmse4wHBEtCUKxdjNLMX13MOYQKBgQDZmxagyaMBXw23LaPI\nP4AFToJm+1M335BYSVbi/ajZYMhM5XooaPwN+xcW5y97dVJgMGbNhvew5rJoHiyc\nDgMQUA2zs6OM1ch8nOSeTca3N4/144Wn0a0kH8t7QQPqPYm+blBFuSOAv1k58r+C\nBpgQ8cVOJATYuxoWlHpPq2AlWQKBgQC4KP+w11NSZaPZEs+ZyCdrB/+B5wsxFiwK\nUKYkM9TL1Cfgh1uZwp4/AxrFpmuivt5bGidehAmQKvllgkyCzsjnfsqYYZrVdUFn\n1JgRK+HQZxC9sBPFYlLlZCUPTCRoHBHVjihypF+IrQJ4n8C8+jeWCl/B0RT4vmzM\n94VfVQdHawKBgQC50fH0w7rqxNzVe6fMrE0KOwyoHB3oLIT6n0YO+EVju33QDHXQ\nZDY5Sh1hdXHan0kE0tA22fZRne7jckDt0hlTqMjKl7Al57kYkHG5rPjwJAZPF0df\nE3Ii0vPUAKTzNjGV6GWr5HkozD3Jej2HL1JTxeGS5LcuzDdu6MO5nMKxoQKBgQCp\nyLq7Sjm6XJSru+kD6YFV7yDEncM2tS9TLzmNZO/KH8XH/mMYJlKI247iLGVNvNT5\nfupO/EJo1QXrbS6m5ohYzQ9xX4NFSv5LALhWFHPzFCJeD6iasOSmMibsrJFgHoje\nr1phH2QoeQEvPnGOiM2YmeXgpafFEKL0cTtYQecdEwKBgQCyYM8qIfhclDrwDTis\nPoM7JAGmRzop5WygPa9iLjZfViv8T+8wq2Z+nOceSWjF0lWZzl0PruZAXiV59Hfx\najSz/1hl97u5i/f74BwNVpAjjql6zptG5h+ef/zUpEvi6x19Ig3eGDfKqKZqrtXh\ngAkA7J8qRRkWatXIS99xmMP/Ew==\n-----END PRIVATE KEY-----\n",
-  "client_email": "sherlock-voice@sherlock-voice-422810.iam.gserviceaccount.com",
-  "client_id": "112047702601404195055",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sherlock-voice%40sherlock-voice-422810.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e61b360eec4f2ee82d15fc7efe452aa3917dd4e89b6a242e7dcbc7cb8d09289d
+size 2389

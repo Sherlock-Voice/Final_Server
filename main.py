@@ -1,21 +1,3 @@
-from fastapi import FastAPI
-from routers import inference
-from fastapi.middleware.cors import CORSMiddleware
-
-app = FastAPI()
-
-# CORS 설정
-origins = [
-    "*",
-]
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=False,  # cookie 설정
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# inference 라우터 추가
-app.include_router(inference.router)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a84fc055338fefa05250d19a6cc6806b8fb5834299bdfb624f51547d04a80ef6
+size 396
